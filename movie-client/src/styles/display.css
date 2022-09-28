@@ -1,0 +1,25 @@
+.display{
+    width: 100%;
+    max-width:1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.displayMovie{
+    position: relative;
+    /* color: white; */
+    border-radius: 10px;
+    /* overflow: hidden; */
+    /* height:500px; */
+
+
+}
+.displayImg{
+    width: 100%;
+    object-fit: cover;
+}
+.displayTitles{
+    position: absolute;
+    bottom: -100px;
+    left: 20px
+}

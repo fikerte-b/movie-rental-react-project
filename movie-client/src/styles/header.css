@@ -1,0 +1,35 @@
+.header{
+    color:red;
+    background-color:black;
+    display:flex;
+    justify-content: center;
+    /* position: relative; */
+}
+.headerContainer{
+    width:100%;
+    max-width:1024px;
+    /* margin: 20px 0px 100px 0px; */
+}
+.search{
+    /* height: 30px; */
+    background-color: black;
+    /* border: 5px sold black;
+    border-radius: 30px; */
+    display: flex;
+    justify-content:space-around;
+    align-items:center
+    /* padding: 10px 0px; */
+    /* position: absolute; */
+    /* bottom: 30px; */
+
+}
+.searchMovie {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .searchInput {
+    border: none;
+    outline: none;
+  }
